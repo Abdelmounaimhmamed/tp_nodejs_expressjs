@@ -1,0 +1,28 @@
+
+
+### POST request  by adding item
+POST http://localhost:4044/api/items
+Content-Type: application/json
+
+{
+  "name": "First Item",
+  "description": "This is the first item"
+}
+
+### GET request  get back data from the api
+GET http://localhost:4044/api/items
+
+### GET request - get one item by its iden
+GET http://localhost:4044/api/items/1
+
+### PUT request - update on item  by it iden
+PUT http://localhost:4044/api/items/1
+Content-Type: application/json
+
+{
+  "name": "Updated First Item",
+  "description": "This is the updated description"
+}
+
+### DELETE request - deletion by id  
+DELETE http://localhost:4044/api/items/1
