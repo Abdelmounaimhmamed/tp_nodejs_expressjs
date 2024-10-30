@@ -1,0 +1,20 @@
+
+
+
+*  In this project i have used  vite as a bundler and project  constructor  for basic files 
+*  to get started with this project  follow this setup : 
+
+
+* cd Book-*
+* npm install 
+* npm run dev 
+
+
+* this project  is a typescript + vite based project 
+
+
+* for any other technical issues visitis : https://github.com/Abdelmounaimhmamed/tp_nodejs_expressjs
+
+
+
+

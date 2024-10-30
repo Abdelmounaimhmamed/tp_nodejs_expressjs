@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Reading Tracker</title>
+    <link href="./src/style.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-8">
+    <div class="max-w-lg mx-auto">
+        <h1 class="text-2xl font-bold mb-4">Add a New Book</h1>
+        <form id="bookForm" class="bg-white p-4 rounded shadow">
+          
+            <input id="title" placeholder="Title" class="w-full p-2 mb-4 border rounded">
+            <input id="author" placeholder="Author" class="w-full p-2 mb-4 border rounded">
+            <input id="pages" type="number" placeholder="Number of Pages" class="w-full p-2 mb-4 border rounded">
+            <input id="suggestedBy" placeholder="Suggested By" class="w-full p-2 mb-4 border rounded">
+            <button type="submit" class="w-full bg-blue-500 text-white p-2 rounded">Add Book</button>
+        </form>
+        <div id="bookList" class="mt-8"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
