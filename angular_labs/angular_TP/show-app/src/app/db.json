@@ -1,0 +1,34 @@
+{
+  "shows": [
+    {
+      "id": 1,
+      "title": "Breaking Bad",
+      "description": "A high school chemistry teacher turned methamphetamine manufacturer",
+      "episodes": 62
+    },
+    {
+      "id": 2,
+      "title": "Stranger Things",
+      "description": "A group of kids encounter supernatural forces and secret government exploits",
+      "episodes": 34
+    },
+    {
+      "id": 3,
+      "title": "The Crown",
+      "description": "Historical drama about the reign of Queen Elizabeth II",
+      "episodes": 48
+    },
+    {
+      "id": "da2e",
+      "title": "batman",
+      "description": "batmaaan",
+      "episodes": 100
+    },
+    {
+      "title": "kelmakea",
+      "description": "eak",
+      "episodes": 1,
+      "id": 4
+    }
+  ]
+}
